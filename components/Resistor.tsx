@@ -67,7 +67,7 @@ const [colorThree, onColThreeChange] = useState('white');
       <span className={styles.headerText}>Resistance (Ohm)</span>
       <input
         value={resistance}
-        type='numeric'
+        type='number'
         placeholder='100 Ohm'
         className={styles.input}
         onChange={ev => onResistanceChange(ev.target.value)}

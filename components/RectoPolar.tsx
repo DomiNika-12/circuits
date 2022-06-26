@@ -7,12 +7,14 @@ function toDeg(a: number){
 }
 
 function magPart(r: number, i: number) {
-  if (isNaN(r) || isNaN(i)) return 0;
+  if (isNaN(r)) r = 0;
+  if (isNaN(i)) i = 0;
   return Math.sqrt(Math.pow(r, 2) + Math.pow(i, 2));
 }
 
 function angPart(r: number, i: number) {
-  if (isNaN(r) || isNaN(i)) return 0;
+  if (isNaN(r)) r = 0;
+  if (isNaN(i)) i = 0;
   return toDeg(Math.atan(i/r));
 }
 
@@ -26,14 +28,14 @@ export const RectoPolar: FC<{}> = props => {
         <span className={styles.headerText}>{`Rectangular to Polar`}</span>
         <input
             value={real}
-            type='numeric'
+            type='number'
           placeholder='Real'
           className={styles.input}
             onChange={ev => onRealChange(ev.target.value)}
           />
         <input
             value={img}
-            type='numeric'
+            type='number'
           placeholder='Imaginary'
           className={styles.input}
             onChange={ev => onImgChange(ev.target.value)}

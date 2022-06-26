@@ -2,6 +2,7 @@
 
 html,
 body {
+  background-color: #2b4570;
   padding: 0;
   margin: 0;
   font-family: 'Inconsolata', monospace;
@@ -12,8 +13,10 @@ a {
   text-decoration: none;
 }
 
+.iconsTopBar{
+  font-size: 30px;
+}
+
 * {
   /* outline: solid 1px red; */
- 
-
 }

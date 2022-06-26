@@ -4,11 +4,41 @@
   flex-direction: column;
 }
 
+.topBar{
+  display: flex;
+  flex-direction: row;
+  z-index: 30;
+  position: sticky;
+  top: -60px;
+  background-color: #2b4570;
+  padding: 10px;
+  padding-top: 60px;
+  gap: 10px;
+}
+
+.topBarText {
+  font-size: 30px;
+  color: #e9e3e6;
+}
+
+.footer{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: #2b4570;
+  justify-content: center;
+}
+
+.footerText{
+  font-size: 13px;
+  color: #e9e3e6;
+}
+
 .resistorContainer {
   display: flex;
   flex-direction: column;
   padding: 30px;
-  border: 2px solid black;
+  border: 2px solid #2b4570;
 }
 .resistorBox1{
   display: flex;
@@ -31,7 +61,6 @@
   border-radius: 20px;
   margin: 20px;
   background-color: #9a8f97;
-  border: 0px solid black;
 }
 
 .buttonText {
@@ -41,19 +70,11 @@
 }
 
 
-.prContainer{
+.prContainer, .rpContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid black;
-  padding: 30px;
-}
-
-.rpContainer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 2px solid black;
+  border: 2px solid #2b4570;
   padding: 30px;
 }
 
@@ -63,7 +84,6 @@
   padding: 10px;
   margin: 10px;
   background-color: white;
-
 }
 
 .headerText{
