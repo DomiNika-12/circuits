@@ -1,41 +1,71 @@
 .container {
-  flex: 1;
-  background-color: '#fff';
-  align-items: 'center';
-  justify-content: 'center';
-  align-self: 'stretch';
+  background-color: #E9E3E6;
+  display: flex;
+  flex-direction: column;
 }
+
+.resistorContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border: 2px solid black;
+}
+.resistorBox1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.resistorBox2{
+  align-self: center;
+}
+
+.resistorBox3{
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
 .button {
-  align-items: 'center';
-  justify-content: 'center';
   padding: 12px 32px;
-  border-radius: 4px;
-  z-index: 3;
-  background-color: 'black';
-};
-.text {
-  font-size: 18;
-  font-family: 'Lucida Sans';
-  line-height: 21;
-  font-weight: 'bold';
-  letter-spacing: 0.25;
-  color: 'white';
+  border-radius: 20px;
+  margin: 20px;
+  background-color: #9a8f97;
+  border: 0px solid black;
 }
-.text1 {
+
+.buttonText {
+  font-family: 'Inconsolata', monospace;
   font-size: 18;
-  font-family: 'Lucida Sans';
-  line-height: 21;
-  font-weight: 'bold';
-  letter-spacing: 0.25;
-  color: 'black';
+  color: black;
 }
-.headerText {
-  font-size: 20;
-  font-family: 'Lucida Sans';
-  line-height: 21;
-  font-weight: 'bold';
-  letter-spacing: 0.25;
-  color: 'black';
-  align-items: 'flex-end';
-  width: '90%';
+
+
+.prContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  padding: 30px;
+}
+
+.rpContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  padding: 30px;
+}
+
+.input{
+  border: 2px solid #9A8F97;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+
+}
+
+.headerText{
+  font-size: 20px;
 }
