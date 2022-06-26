@@ -2,7 +2,8 @@ import React, { FC, useState } from 'react';
 import styles from '../styles/Home.module.css'
 
 
-function toDeg(a: number){
+function toDeg(a: number) {
+  if (isNaN(a)) a = 0;
   return 180 * a / Math.PI;
 }
 
