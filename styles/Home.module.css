@@ -34,6 +34,12 @@
   color: #e9e3e6;
 }
 
+.footerLink{
+  font-size: 13px;
+  color: #e9e3e6;
+  text-decoration: underline;
+}
+
 .resistorContainer {
   display: flex;
   flex-direction: column;
@@ -84,6 +90,7 @@
   padding: 10px;
   margin: 10px;
   background-color: white;
+
 }
 
 .headerText{

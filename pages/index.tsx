@@ -21,7 +21,7 @@ export default function App() {
       <RectoPolar />
       <div className={styles.footer}>
         <p className={styles.footerText}>{`By `}
-        <a href='https://dominikabobik.com/' target={"_blank"} rel={"noreferrer"} className={styles.footerText}>{` Dominika Bobik`}</a>
+        <a href='https://dominikabobik.com/' target={"_blank"} rel={"noreferrer"} className={styles.footerLink}>{` Dominika Bobik`}</a>
         </p>
       </div>
     </div>
